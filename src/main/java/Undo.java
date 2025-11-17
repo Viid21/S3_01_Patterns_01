@@ -24,7 +24,7 @@ public class Undo {
         if (!commands.isEmpty()) {
             return commands.pop();
         }
-        return null; // si no hi ha comandes
+        return null;
     }
 
     public void showHistory() {
