@@ -29,7 +29,7 @@ public class Undo {
 
     public void showHistory() {
         if (commands.isEmpty()) {
-            System.out.println("Historial buit.");
+            System.out.println("History empty.");
         } else {
             for (String cmd : commands) {
                 System.out.println(cmd);
