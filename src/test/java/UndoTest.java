@@ -44,6 +44,6 @@ public class UndoTest {
     void givenEmptyHistory_whenUndoCommand_thenReturnNull() {
         Undo undo = Undo.getInstance();
         String undone = undo.undoCommand();
-        assertNull(undone, "Si no hi ha comandes, ha de retornar null");
+        assertNull(undone);
     }
 }
